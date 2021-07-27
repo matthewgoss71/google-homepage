@@ -27,11 +27,15 @@ body {
     padding-right: 8px;
 }
 
-#navbar {
+#navbar1 {
     list-style-type: none;
+    display: block;
+    position: absolute;
     margin: 0;
     padding: 0;
-    font: 16px arial, sans-serif;
+    font: 13px arial, sans-serif;
+    height: 15px;
+    width: 98.6875px;
 }
 
 #google-apps {
@@ -42,5 +46,4 @@ body {
 #sign-in {
     background-color: rgb(66, 66, 248);
     color: white;
-    
 }
