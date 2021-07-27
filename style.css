@@ -4,7 +4,7 @@ body {
     margin: auto;
 }
 
-img {
+#logo {
     display: block;
     height: 92px;
     aspect-ratio: auto 272 / 92;
@@ -25,4 +25,22 @@ img {
     padding-top: 5px;
     padding-left: 14px;
     padding-right: 8px;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font: 16px arial, sans-serif;
+}
+
+#google-apps {
+    height: 30px;
+    width: 30px;
+}
+
+#sign-in {
+    background-color: rgb(66, 66, 248);
+    color: white;
+    
 }
