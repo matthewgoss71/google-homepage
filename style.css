@@ -1,0 +1,28 @@
+body {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    display: block;
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    width: 272px;
+    text-align: center;
+    margin: auto;
+    padding-top: 109px;
+    padding-bottom: 20px;
+}
+
+#search {
+    background-color: transparent;
+    border-radius: 50px;
+    height: 34px;
+    width: 460px;
+    font: 16px arial, sans-serif;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-left: 14px;
+    padding-right: 8px;
+}
