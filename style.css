@@ -1,7 +1,76 @@
 body {
-    display: block;
     text-align: center;
-    margin: auto;
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ul {
+    width: 50%;
+    display: flex; 
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    margin: 7px 0px 10px 0px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+#left-nav {
+    width: 80%;
+    text-align: left;
+}
+
+#left-nav li {
+    padding-left: 15px;
+}
+
+#right-nav {
+    width: 20%;
+    text-align: right;
+    padding-right: 0;
+}
+
+#right-nav li {
+    padding-left: 15px;
+}
+
+#sign-in {
+    color: #fff;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    border-radius: 2px;
+    font-size: 13px;
+    width: 69.34px;
+    height: 30px;
+    padding: 0px 12px;
+
+}
+
+#google-apps {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    opacity: .65;
 }
 
 #logo {
@@ -27,23 +96,6 @@ body {
     padding-right: 8px;
 }
 
-#navbar1 {
-    list-style-type: none;
-    display: block;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    font: 13px arial, sans-serif;
-    height: 15px;
-    width: 98.6875px;
-}
 
-#google-apps {
-    height: 30px;
-    width: 30px;
-}
 
-#sign-in {
-    background-color: rgb(66, 66, 248);
-    color: white;
-}
+
