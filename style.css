@@ -30,7 +30,6 @@ nav li a {
     text-decoration: none;
     color: rgb(34, 34, 34);
     font-size: 13px;
-    font-family: arial, sans-serif;
 }
 
 #left-nav {
@@ -139,7 +138,7 @@ nav li a {
     position: absolute;
     height: 20px;
     width: 15px;
-    right: 0;
+    right: 0px;
     top: 33%;
 }
 
@@ -159,6 +158,43 @@ nav li a {
     min-width: 54px;
     margin: 11px 4px;
     padding: 0px 16px;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: rgb(248,248,248);
+    border-top-style: solid;
+    border-top-color:rgba(34, 34, 34, .1);
+    border-top-width: 1px;
+    max-width: 1294px;
+    height: 40px;
+}
+
+footer li {
+    list-style: none;
+    padding-left: 27px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    font-size: 14px;
+    opacity: .65;
+}
+
+#foot-left {
+    text-align: left;
+    width: 80%;
+}
+
+#foot-right {
+    text-align: right;
+    width: 20%;
 }
 
 
