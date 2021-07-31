@@ -72,6 +72,10 @@ nav li a:hover, footer li a:hover {
     opacity: .65;
 }
 
+#google-apps:hover {
+    opacity: .85;
+}
+
 #logo {
     display: block;
     height: 92px;
